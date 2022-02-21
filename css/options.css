@@ -1,5 +1,21 @@
 /* Styles for the Options Page*/
 
 body {
-    font-size: 30px;
+    font-size: 23px;
 }
+
+.nav-tabs .nav-link.active {
+    color: #0D6EFD;
+}
+
+.nav-tabs .nav-link {
+    color: #495057;
+}
+
+.banner {
+    text-align: center;
+    color: white;
+    background-color: #0D6EFD;
+    margin-left: auto;
+    margin-right: auto;
+  }
