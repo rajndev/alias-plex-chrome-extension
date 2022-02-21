@@ -27,10 +27,20 @@
               <div class="tab-pane fade show active" id="set-activator" role="tabpanel" aria-labelledby="home-tab">
                 <br>
                 <label for="basic-url" class="form-label">Set Activator Phrase</label>
-                <div class="input-group mb-3">
-                  <span class="input-group-text" id="basic-addon1"><i class="bi-terminal" style="font-size: 1.3rem; color: #1A65E8;"></i></span>
-                  <input type="text" class="form-control" placeholder="Your characters" aria-label="Your characters" aria-describedby="basic-addon1" style="flex: 0 1 300px;">
-                  <button class="btn btn-primary" style="background-color: #4583EE !important; border: 0px;">Submit</button>
+                <div class="row gx-0">
+                  <div class="col-md-4">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1"><i class="bi-terminal" style="font-size: 1.3rem; color: #1A65E8;"></i></span>
+                      <input type="text" class="form-control shadow-none" placeholder="Enter any characters" aria-label="Enter any characters" aria-describedby="basic-addon1" style="flex: 0 1 300px;">
+                      <button class="btn btn-outline-primary" style="border: 1px solid #1A65E8;">Submit</button>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                      Your phrase was successfully registered!
+                      <button type="button" class="btn-close pb-2" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                  </div>
                 </div>
                 <br>
               </div>

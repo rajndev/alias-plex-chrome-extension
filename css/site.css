@@ -2,4 +2,13 @@
 
 body {
     font-family: "Arial Rounded MT", "Helvetica Rounded", Arial, sans-serif;
+    font-size: 21px;
 }
+
+.alert {
+    margin-bottom: 1px;
+    height: 45px;
+    line-height:45px;
+    padding:0px 15px;
+    font-size: 15px;
+  }
